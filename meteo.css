@@ -1,0 +1,72 @@
+#master {
+	margin: auto auto;
+}
+
+iframe {
+	vertical-align: center;
+}
+
+.header {
+	font-family: sans-serif;
+	font-size: 20px;
+	text-align: center;
+	font-weight: lighter;
+	vertical-align: center;
+}
+
+.newrow {
+	clear: both;
+	position: relative;
+	float: left;
+}
+
+body {
+	background-color: #7A995C;
+}
+
+.bg {
+	float: left;
+	background-color: #CCFF33;
+}
+
+.baltic {
+	background-color: #CCFF99;
+}
+
+.ua {
+	background-color: #B8FFB8;
+}
+
+.ru {
+	float: left;
+	background-color: #CCFF33;
+}
+
+.kz {
+	background-color: #CCFF99;
+	float: left;
+}
+
+.uz {
+	float: left;
+	background-color: #CCFF33;
+}
+
+.tm {
+	float: left;
+	background-color: #CCFF99;
+}
+.misc {
+	float: left;
+}
+
+.aw-widget-legal {
+	display: none;
+}
+
+.aw-widget-current {
+	max-height: 150px;
+	min-height: 231px;
+	max-width: 115px;
+	min-width: 115px;
+}
