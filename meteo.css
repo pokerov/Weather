@@ -1,72 +1,35 @@
-#master {
-	margin: auto auto;
+html, body {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
 }
-
-iframe {
-	vertical-align: center;
+#contents {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: -30px;
+  bottom: 0;
+  padding-right: 15px;
+  overflow-y: scroll;
+  width: 100%
 }
-
-.header {
-	font-family: sans-serif;
-	font-size: 20px;
-	text-align: center;
-	font-weight: lighter;
-	vertical-align: center;
+td, .aw-widget-current-inner {
+  width: 160px !important;
+  height: 233px !important;
+  max-width: 160px !important;
+  max-height: 233px !important;
+  padding: 0;
+  margin: 0;
 }
-
-.newrow {
-	clear: both;
-	position: relative;
-	float: left;
+#link_get_widget {
+  visibility: hidden;
 }
-
-body {
-	background-color: #7A995C;
+.aw-weather-description, h3 {
+  clear: both;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
 }
-
-.bg {
-	float: left;
-	background-color: #CCFF33;
-}
-
-.baltic {
-	background-color: #CCFF99;
-}
-
-.ua {
-	background-color: #B8FFB8;
-}
-
-.ru {
-	float: left;
-	background-color: #CCFF33;
-}
-
-.kz {
-	background-color: #CCFF99;
-	float: left;
-}
-
-.uz {
-	float: left;
-	background-color: #CCFF33;
-}
-
-.tm {
-	float: left;
-	background-color: #CCFF99;
-}
-.misc {
-	float: left;
-}
-
-.aw-widget-legal {
-	display: none;
-}
-
-.aw-widget-current {
-	max-height: 150px;
-	min-height: 231px;
-	max-width: 115px;
-	min-width: 115px;
+#t1, #c1, #t1c {
+  vertical-align: middle;
 }
